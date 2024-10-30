@@ -50,7 +50,7 @@
       color: #333;
      }
 
-     clr {
+     .clr {
       clear: both;
      }
 
@@ -165,7 +165,7 @@
       height: 100%;
       text-align: center;
       padding:50px 30px ;
-      overflow: hidden   ;
+      overflow: hidden;
      }
  
      #home-info .info-content p {
@@ -233,7 +233,32 @@
       border-radius: 50%;
 
      }
+
+     #contact-form .form-group {
+      margin-bottom: 20px;
+        
+     }
+
+     #contact-form label {
+      display: block;
+      margin-bottom: 5px;
+     }
+
+     #contact-form input, #contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      border:1px #ddd solid;
+     }
+  
+     #contact-form textarea {
+      height: 200px;
+     }
      
+     #contact-form input:focus, #contact-form textarea:focus {
+      outline: none;
+      border-color: #f7c08a;
+     }
+
      #main-footer {
       text-align: center;
       background: #444;
